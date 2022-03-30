@@ -141,7 +141,8 @@ strong {
 }
 
 .btn-group,
-.content-links {
+.content-links,
+.btn.jmodedit {
     display: none;
 }
 
