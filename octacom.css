@@ -22,10 +22,10 @@
     --octa-color-tertiary-value: 52, 45%, 87%;
     --octa-color-quaternary-value: 12, 17%, 30%;
 
-    --octa-color-primary: hsl(var(--vik-color-primary-value));
-    --octa-color-secondary: hsl(var(--vik-color-secondary-value));
-    --octa-color-tertiary: hsl(var(--vik-color-tertiary-value));
-    --octa-color-quaternary: hsl(var(--vik-color-quaternary-value));
+    --octa-color-primary: hsl(var(--octa-color-primary-value));
+    --octa-color-secondary: hsl(var(--octa-color-secondary-value));
+    --octa-color-tertiary: hsl(var(--octa-color-tertiary-value));
+    --octa-color-quaternary: hsl(var(--octa-color-quaternary-value));
 
     --octa-headers-font-family: 'Octacom headers', type;
     --octa-base-font-family: 'Octacom texts', type;
