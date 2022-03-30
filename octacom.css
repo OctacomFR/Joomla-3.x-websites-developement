@@ -17,10 +17,10 @@
 /* --------- General styling ---------- */
 
 :root {
-    --octa-color-primary-value: 14, 88%, 40%;
-    --octa-color-secondary-value: 169, 100%, 26%;
-    --octa-color-tertiary-value: 52, 45%, 87%;
-    --octa-color-quaternary-value: 12, 17%, 30%;
+    --octa-color-primary-value: 0, 0%, 0%;
+    --octa-color-secondary-value: 0, 0%, 0%;
+    --octa-color-tertiary-value: 0, 0%, 0%;
+    --octa-color-quaternary-value: 0, 0%, 0%;
 
     --octa-color-primary: hsl(var(--octa-color-primary-value));
     --octa-color-secondary: hsl(var(--octa-color-secondary-value));
