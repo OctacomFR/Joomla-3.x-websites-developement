@@ -99,9 +99,9 @@ body:not(.itemid-101) .page_header h1,
 .category_desc h1,
 .view-contact h1,
 .categoriedesc h1 {
-    padding: 0 0 0.5rem 0;
-    margin: 0 0 0.5rem 0;
-    margin-bottom: 1px solid var(--octa-color-primary);
+  padding-block: 1.5rem;
+  margin-block: 1.5rem;
+  border-bottom: 1px solid var(--octa-color-primary);
 }
 
 strong {
