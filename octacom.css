@@ -1,13 +1,18 @@
 /*
 * @author: Octacom
-* @version: 0.1
+* @version: 0.3
 * @date: 2022-03-30
 * @description: Octacom css file for Jommla websites developement
 */
 
 @font-face {
-    font-family: 'Octacom';
+    font-family: 'Octacom headers';
     src: url('../fonts/Octacom/Octacom-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Octacom texts';
+    src: url('../fonts/Octacom/Octacom-Regular-2.ttf') format('truetype');
 }
 
 /* --------- General styling ---------- */
@@ -23,8 +28,8 @@
     --octa-color-tertiary: hsl(var(--vik-color-tertiary-value));
     --octa-color-quaternary: hsl(var(--vik-color-quaternary-value));
 
-    --octa-headers-font-family: 'FontName', type;
-    --octa-base-font-family: 'FontName', type;
+    --octa-headers-font-family: 'Octacom headers', type;
+    --octa-base-font-family: 'Octacom texts', type;
     --octa-base-line-height: 1.3;
     --octa-text-color: hsl(0, 0%, 20%);
 }
