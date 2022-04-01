@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: 'Octacom headers';
-    src: url('../fonts/Octacom/Octacom-Regular.ttf') format('truetype');
+    src: url('../fonts/Octacom-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Octacom texts';
-    src: url('../fonts/Octacom/Octacom-Regular-2.ttf') format('truetype');
+    src: url('../fonts/Octacom-Regular-2.ttf') format('truetype');
 }
 
 /* --------- General styling ---------- */
@@ -155,14 +155,14 @@ strong {
 
 /*------------listes---------------*/
 /*check \f00c check circle \f058 chevron simple \f105 chevrons double \f101 arrow circle \f35a arrow \f061 tag \f02b*/
-.item_fulltext .list li {
+.item_fulltext li {
     padding-left: 0.5rem;
     margin-left: 1rem;
     position: relative;
     line-height: 1.5;
 }
 
-.item_fulltext .list li::marker {
+.item_fulltext li::marker {
     color: var(--octa-color-primary);
     font-weight: 700;
     content: '';
