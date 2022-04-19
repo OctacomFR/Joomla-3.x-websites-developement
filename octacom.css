@@ -143,7 +143,7 @@ strong {
 .btn-group,
 .content-links,
 .btn.jmodedit {
-    display: none;
+    display: none !important;
 }
 
 .item_fulltext .btn.fa:before {
