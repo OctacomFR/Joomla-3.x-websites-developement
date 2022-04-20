@@ -7,11 +7,13 @@
 @font-face {
     font-family: 'Octacom headers';
     src: url('../fonts/Octacom-Regular.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Octacom texts';
     src: url('../fonts/Octacom-Regular-2.ttf') format('truetype');
+    font-display: swap;
 }
 
 /* --------- General styling ---------- */
