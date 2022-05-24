@@ -5,14 +5,14 @@
 */
 
 @font-face {
-    font-family: 'Octacom headers';
-    src: url('../fonts/Octacom-Regular.ttf') format('truetype');
+    font-family: "Octacom headers";
+    src: url("../fonts/Octacom-Regular.ttf") format("truetype");
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Octacom texts';
-    src: url('../fonts/Octacom-Regular-2.ttf') format('truetype');
+    font-family: "Octacom texts";
+    src: url("../fonts/Octacom-Regular-2.ttf") format("truetype");
     font-display: swap;
 }
 
@@ -29,8 +29,8 @@
     --octa-color-tertiary: hsl(var(--octa-color-tertiary-value));
     --octa-color-quaternary: hsl(var(--octa-color-quaternary-value));
 
-    --octa-headers-font-family: 'Octacom headers', type;
-    --octa-base-font-family: 'Octacom texts', type;
+    --octa-headers-font-family: "Octacom headers", type;
+    --octa-base-font-family: "Octacom texts", type;
     --octa-base-line-height: 1.5;
     --octa-text-color: hsl(0, 0%, 20%);
 }
@@ -101,9 +101,9 @@ body:not(.itemid-101) .page_header h1,
 .category_desc h1,
 .view-contact h1,
 .categoriedesc h1 {
-  padding-block: 1.5rem;
-  margin-block: 1.5rem;
-  border-bottom: 1px solid var(--octa-color-primary);
+    padding-block: 1.5rem;
+    margin-block: 1.5rem;
+    border-bottom: 1px solid var(--octa-color-primary);
 }
 
 strong {
@@ -116,15 +116,16 @@ strong {
 }
 
 .item_fulltext a {
-    text-decoration: none !important;
+    text-decoration: underline !important;
 }
 
 .item_fulltext a:hover {
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 .item_fulltext .btn {
     color: #fff !important;
+    text-decoration: none !important;
 }
 
 .item_fulltext .btn:hover {
@@ -152,7 +153,7 @@ strong {
     position: relative;
     left: 5px;
     top: 3px;
-    font-size: 20px
+    font-size: 20px;
 }
 
 /*------------listes---------------*/
@@ -167,7 +168,7 @@ strong {
 .item_fulltext li::marker {
     color: var(--octa-color-primary);
     font-weight: 700;
-    content: '';
+    content: "";
     font-family: FontAwesome;
     font-size: 20px;
     position: absolute;
@@ -214,10 +215,10 @@ button.mod_rappel_form_btn {
 .uneditable-input {
     background-color: transparent;
     border: 1px solid var(--octa-color-primary);
-    -webkit-transition: border linear .2s, box-shadow linear .2s;
-    -moz-transition: border linear .2s, box-shadow linear .2s;
-    -o-transition: border linear .2s, box-shadow linear .2s;
-    transition: border linear .2s, box-shadow linear .2s;
+    -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -276,7 +277,7 @@ input[type="checkbox"] {
 
 .mod_tm_ajax_contact_form input[type="checkbox"]+label::before {
     font-family: "FontAwesome";
-    content: '\f0c8';
+    content: "\f0c8";
     font-size: 1.75rem;
     color: var(--octa-color-primary);
     margin-right: 0.5em;
@@ -285,7 +286,7 @@ input[type="checkbox"] {
 }
 
 .mod_tm_ajax_contact_form input[type="checkbox"]:checked+label::before {
-    content: '\f14a';
+    content: "\f14a";
 }
 
 .control-group-button {
@@ -294,8 +295,8 @@ input[type="checkbox"] {
 }
 
 /*--------------------- Media querries --------------------------*/
-@media(max-width:1300px) {}
+@media (max-width: 80rem) {}
 
-@media(max-width:900px) {}
+@media (max-width: 55rem) {}
 
-@media(max-width:500px) {}
+@media (max-width: 30rem) {}
