@@ -182,6 +182,10 @@ strong {
     background-color: var(--octa-color-primary) !important;
 }
 
+#tarteaucitronAlertSmall #tarteaucitronManager {
+    color: var(--octa-color-primary) !important;
+}
+
 /*-------------------Rappel immédiat -----------------*/
 button.mod_rappel_form_btn {
     background: var(--octa-color-primary) !important;
