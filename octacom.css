@@ -196,6 +196,12 @@ button.mod_rappel_form_btn {
     background-color: var(--octa-color-primary) !important;
 }
 
+.rt-social-buttons .rt-social-text{
+    background: var(--octa-color-primary);
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+}
+
 .rt-social-buttons {
     top: 400px !important;
 }
