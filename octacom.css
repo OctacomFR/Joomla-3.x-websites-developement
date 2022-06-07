@@ -196,7 +196,7 @@ button.mod_rappel_form_btn {
     background-color: var(--octa-color-primary) !important;
 }
 
-.rt-social-buttons .rt-social-text{
+.rt-social-buttons .rt-social-text {
     background: var(--octa-color-primary);
     font-size: 0.85rem !important;
     font-weight: 400 !important;
@@ -302,6 +302,30 @@ input[type="checkbox"] {
 .control-group-button {
     display: flex !important;
     justify-content: center;
+}
+
+/*------------------Ba Gallery-------------------*/
+.ba-gallery .categories-description a.btn {
+    background: var(--octa-color-primary);
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+}
+
+.ba-gallery .categories-description a.btn:hover,
+.ba-gallery .categories-description a.btn:focus,
+.ba-gallery .categories-description a.btn:active {
+    background: var(--octa-color-secondary);
+}
+
+.ba-gallery .ba-goback>a:hover,
+.item_fulltext .ba-btn.ba-current,
+.item_fulltext .ba-btn:hover {
+    background: var(--octa-color-primary) !important;
+}
+
+.item_fulltext .ba-gallery .ba-goback a,
+.item_fulltext .ba-btn {
+    text-decoration: none !important;
 }
 
 /*--------------------- Media querries --------------------------*/
