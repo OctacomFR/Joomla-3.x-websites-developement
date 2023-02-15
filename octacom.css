@@ -307,7 +307,7 @@ input[type="checkbox"] {
   content: "\f14a";
 }
 
-.control-group-button {
+.control-group-button, .control-group-button .control{
   display: flex !important;
   justify-content: center;
 }
