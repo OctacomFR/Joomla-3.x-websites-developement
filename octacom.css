@@ -307,7 +307,8 @@ input[type="checkbox"] {
   content: "\f14a";
 }
 
-.control-group-button, .control-group-button .control{
+.control-group-button,
+.control-group-button .control {
   display: flex !important;
   justify-content: center;
 }
@@ -342,6 +343,9 @@ input[type="checkbox"] {
 
 /*--------------------- Media querries --------------------------*/
 @media (max-width: 1300px) {
+}
+
+@media (max-width: 1024px) {
 }
 
 @media (max-width: 820px) {
