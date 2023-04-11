@@ -479,7 +479,7 @@ input[type="checkbox"] {
   flex-basis: auto;
 }
 
-.flex.no-gap{
+.flex.no-gap {
   --col-gap: 0px;
   --row-gap: 0px;
 }
@@ -638,4 +638,7 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 450px) {
+  .flex > * {
+    padding-inline: var(--col-gap);
+  }
 }
