@@ -639,6 +639,6 @@ input[type="checkbox"] {
 
 @media (max-width: 450px) {
   .flex > * {
-    padding-inline: var(--col-gap);
+    padding-inline: 25px;
   }
 }
