@@ -627,7 +627,6 @@ input[type="checkbox"] {
 @media (max-width: 820px) {
   .flex {
     flex-direction: column;
-    margin-inline: calc(var(--col-gap) / -2);
   }
   .flex > * {
     flex-basis: 100%;
@@ -638,7 +637,7 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 450px) {
-  .flex > * {
+  .flex {
     padding-inline: 25px;
   }
 }
