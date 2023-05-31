@@ -459,12 +459,16 @@ input[type="checkbox"] {
   flex-grow: 1;
 }
 
-.flex.no-wrap {
-  flex-wrap: nowrap;
-}
-
 .flex.no-grow > * {
   flex-grow: 0;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.flex.no-wrap {
+  flex-wrap: nowrap;
 }
 
 .flex.shrink > * {
@@ -629,7 +633,8 @@ input[type="checkbox"] {
     flex-direction: column;
   }
   .flex > * {
-    flex-basis: 100%;
+    width: 100%;
+    --basis: 100% !important;
   }
 }
 
