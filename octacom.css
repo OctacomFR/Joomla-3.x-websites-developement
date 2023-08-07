@@ -71,6 +71,7 @@ h6 {
   font-weight: 400;
   line-height: var(--octa-base-line-height);
   color: var(--octa-text-color);
+  text-wrap: balance;
 }
 
 h1 {
@@ -252,13 +253,11 @@ button.mod_rappel_form_btn {
   box-sizing: border-box;
   height: 50px;
   color: var(--octa-text-color);
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
   box-shadow: none !important;
   padding: 16px 19px;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0px;
+  border-radius: 0;
   vertical-align: middle;
   font-family: var(--octa-base-font);
   display: flex;
@@ -270,7 +269,7 @@ button.mod_rappel_form_btn {
   background: #fff !important;
   margin-top: 1px !important;
   border: 1px solid var(--octa-primary) !important;
-  border-radius: 0px !important;
+  border-radius: 0 !important;
   font-size: 1rem !important;
   padding: 5px;
   overflow: hidden !important;
@@ -287,7 +286,7 @@ button.mod_rappel_form_btn {
   background: unset !important;
   background-color: var(--octa-primary) !important;
   color: #fff !important;
-  border-radius: 0px !important;
+  border-radius: 0 !important;
 }
 
 .mod_tm_ajax_contact_form select {
@@ -531,6 +530,10 @@ input[type="checkbox"] {
 .flex.gap-50 {
   --col-gap: 50px;
   --row-gap: 50px;
+}
+
+.flex.auto > * {
+  flex-basis: auto;
 }
 
 .flex.even-10 > * {
