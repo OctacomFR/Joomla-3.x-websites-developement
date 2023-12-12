@@ -628,9 +628,13 @@ input[type="checkbox"] {
 }
 
 /*--------------------- Media querries --------------------------*/
-@media (max-width: 1300px) {
+/* Ipad pro */
+@media (max-width: 1400px) {
 }
-
+/* Ipad air */
+@media (max-width: 1200px) {
+}
+/* Ipad mini */
 @media (max-width: 1024px) {
 }
 
