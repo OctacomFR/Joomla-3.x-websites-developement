@@ -406,11 +406,9 @@ input[type="checkbox"] {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  --col-gap: 0px;
-  --row-gap: 0px;
   --basis: 100%;
-  column-gap: var(--col-gap);
-  row-gap: var(--row-gap);
+  column-gap: var(--col-gap, 0);
+  row-gap: var(--row-gap, 0);
 }
 
 .flex.jstart {
