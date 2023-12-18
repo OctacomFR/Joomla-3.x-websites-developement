@@ -407,8 +407,8 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   align-items: center;
   --basis: 100%;
-  column-gap: var(--col-gap, 0);
-  row-gap: var(--row-gap, 0);
+  column-gap: var(--col-gap, 0px);
+  row-gap: var(--row-gap, 0px);
 }
 
 .flex.jstart {
@@ -622,7 +622,7 @@ input[type="checkbox"] {
 }
 
 .flex > * {
-  flex-basis: calc(var(--basis) - var(--col-gap));
+  flex-basis: calc(var(--basis) - var(--col-gap, 0px));
 }
 
 /*--------------------- Media querries --------------------------*/
