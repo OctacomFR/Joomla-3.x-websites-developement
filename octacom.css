@@ -637,10 +637,10 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 820px) {
-  .flex {
+  .flex:not(.no-wrap) {
     flex-direction: column;
   }
-  .flex > * {
+  .flex:not(.no-wrap) > * {
     width: 100%;
     --basis: 100% !important;
   }
