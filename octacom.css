@@ -390,6 +390,10 @@ input[type="checkbox"] {
   text-decoration: none !important;
 }
 
+[class*="mdi-"]:before {
+  font-family: "Material-Design-Iconic-Font" !important;
+}
+
 /* ------------------ RGPD page table ------------------- */
 .responsive-rgpd tr :is(th, td) {
   color: var(--octa-text-color) !important;
